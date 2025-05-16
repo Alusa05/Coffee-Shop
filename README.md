@@ -17,3 +17,24 @@ cd Coffee-Shop
 pipenv install
 pipenv shell
 
+# Project Structure
+Coffee-shop/
+├── Pipfile
+├── debug.py            # Manual testing script
+├── customer.py         # Customer model
+├── coffee.py           # Coffee model
+├── order.py            # Order model
+└── tests/
+    ├── test_customer.py
+    ├── test_coffee.py
+    └── test_order.py
+
+# Testing
+Run all tests:
+python -m pytest tests/
+
+# License 
+Distributed under the MIT License
+
+# Contact
+Email - lisa.sayi@student.mor
