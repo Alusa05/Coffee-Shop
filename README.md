@@ -37,4 +37,5 @@ python -m pytest tests/
 Distributed under the MIT License
 
 # Contact
-Email - lisa.sayi@student.mor
+Email - lisa.sayi@student.moringaschool.com
+Project link - https://github.com/Alusa05/Coffee-Shop
