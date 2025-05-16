@@ -8,6 +8,7 @@ class Order:
         Order.all.append(self)
 
         # Adding the price property
+        @property
         def price(self):
             return self._price
         
@@ -26,4 +27,19 @@ class Order:
         def customer(self):
             return self._customer
         @customer.setter
+        def customer(self,value):
+            if not isinstance(value,Customer):
+                raise TypeError("Must be a Customer instance")
+            self._customer = value
+
+        # Adding the coffee property
+        @property
+        def coffee(self):
+            return self,_coffee
         
+        @coffee.setter
+        def coffee(Self,value):
+            if not isinstance(value,Coffee):
+                raise TypeError("Must be a Coffee instance")
+            self._coffee = value
+
